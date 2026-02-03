@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEXUS | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myNav" class="menu-overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="artists.html">Our Artists</a>
+        <a href="studio.html">Our Studio</a>
+        <a href="events.html">Events</a>
+        <a href="socials.html">Social Media</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <button class="nav-toggle" onclick="openNav()">Menu</button>
+
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <p>Ready to work? Send us a transmission.</p>
+
+        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+            
+            <!-- Contact Info -->
+            <div>
+                <div class="card">
+                    <h2>HEADQUARTERS</h2>
+                    <p>101 Future Blvd, Sector 7<br>Neo-Metropolis, 90210</p>
+                    <br>
+                    <h2>DIRECT LINE</h2>
+                    <p style="color: var(--accent-glow);">+1 (555) 019-2026</p>
+                    <br>
+                    <h2>EMAIL</h2>
+                    <p style="color: var(--accent-glow);">bookings@nexusmgmt.com</p>
+                </div>
+            </div>
+
+            <!-- Enquiry Form -->
+            <div>
+                <form>
+                    <label style="color: var(--text-muted); font-size: 0.9rem;">FULL NAME</label>
+                    <input type="text" placeholder="John Doe">
+
+                    <label style="color: var(--text-muted); font-size: 0.9rem;">EMAIL ADDRESS</label>
+                    <input type="email" placeholder="email@domain.com">
+
+                    <label style="color: var(--text-muted); font-size: 0.9rem;">ENQUIRY TYPE</label>
+                    <input type="text" placeholder="Booking / Representation / Studio">
+
+                    <label style="color: var(--text-muted); font-size: 0.9rem;">MESSAGE</label>
+                    <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+
+                    <button type="button" class="submit-btn">SEND TRANSMISSION</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
