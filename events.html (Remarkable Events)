@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEXUS | Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myNav" class="menu-overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="artists.html">Our Artists</a>
+        <a href="studio.html">Our Studio</a>
+        <a href="events.html">Events</a>
+        <a href="socials.html">Social Media</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <button class="nav-toggle" onclick="openNav()">Menu</button>
+
+    <div class="container">
+        <h1>REMARKABLE EVENTS</h1>
+        <p>History in the making. Past highlights and upcoming experiences.</p>
+
+        <div class="grid">
+            <div class="card">
+                <p style="color: var(--accent);">UPCOMING // NOV 2026</p>
+                <h2>NEON HORIZON FESTIVAL</h2>
+                <p>Location: Cyberdome Arena</p>
+                <hr style="border-color: var(--border); margin: 15px 0;">
+                <p>Headlined by Solaris. The first fully immersive VR/AR hybrid concert experience.</p>
+            </div>
+            
+            <div class="card">
+                <p style="color: var(--text-muted);">PAST // AUG 2026</p>
+                <h2>KAIROS ALBUM LAUNCH</h2>
+                <p>Location: The Underground Bunker</p>
+                <hr style="border-color: var(--border); margin: 15px 0;">
+                <p>An exclusive listening party attended by industry elites and influencers.</p>
+            </div>
+            
+            <div class="card">
+                <p style="color: var(--text-muted);">PAST // JAN 2026</p>
+                <h2>GLOBAL CHARITY GALA</h2>
+                <p>Location: Orbital Station Link</p>
+                <hr style="border-color: var(--border); margin: 15px 0;">
+                <p>Raised $2M for digital arts education.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
